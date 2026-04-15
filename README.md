@@ -54,7 +54,7 @@ Tread, spokes, and rim are integrated into a **single CAD model**, eliminating a
 
 ![Original vs modified](Original_vs_modified.png)
 
-![Spokes overhang](rover-1.jpg)
+![Spokes overhang]()
 
 ---
 
@@ -67,7 +67,7 @@ Tread, spokes, and rim are integrated into a **single CAD model**, eliminating a
 
 The material transition is handled by **tool-change commands at the 130 mm Z-height boundary**, with a wipe tower included in the slicer setup to prevent cross-contamination between filaments.
 
-![Prusa slicer plater](rover-1.jpg)
+![Prusa slicer plater](Prusa_slicer_plater.png)
 
 ---
 
@@ -94,7 +94,7 @@ The material transition is handled by **tool-change commands at the 130 mm Z-hei
 | Supports | Build plate only | Build plate only |
 | Brim | None | None |
 
-![Print process](rover-1.jpg)
+![Print process](print_process.png)
 
 **Total Print Time (Normal mode):** 1 day 2 hours 34 minutes
 **Total Print Time (Stealth mode):** 1 day 3 hours 8 minutes
