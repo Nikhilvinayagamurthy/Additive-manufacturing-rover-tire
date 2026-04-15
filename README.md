@@ -2,6 +2,7 @@
 
 **Computer Integrated Manufacturing (CIM) Project | TU Clausthal | SS 2025**
 **Team:** Nikhil Vinayagamurthy, Raghav Dixit
+
 **Supervisor:** Prof. Dr. David Inkermann
 
 ---
@@ -10,8 +11,7 @@
 
 Redesigned and optimized an existing rover wheel model for **dual-material FDM production** on the Original Prusa XL (5-Tool Multi-Extruder), applying Design for Manufacturability (DfX) principles. The project transforms a solid-disc rover wheel into a high-performance, manufacturable tire combining two materials in a single print job: a **soft, energy-absorbing TPU 95A inner core** for compliance and shock absorption, and a **rigid, wear-resistant PETG outer tread** for traction and durability on loose, uneven terrains such as mud, gravel, and sand.
 
-The redesigned tire was fully modeled in **Siemens NX**, sliced in **PrusaSlicer**, and physically printed as a working prototype — total print time approximately 26 hours.
-
+The redesigned tire was fully modeled in **Siemens NX**, sliced in **PrusaSlicer**, and physically printed as a working prototype.
 ---
 
 ## Objectives
@@ -167,4 +167,5 @@ The rover tire was successfully redesigned for FDM using Siemens NX, adhering to
 
 **Technische Universität Clausthal**
 Institute of Mechanical Engineering
+
 Computer Integrated Manufacturing (CIM) | SS 2025
