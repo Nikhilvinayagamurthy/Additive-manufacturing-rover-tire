@@ -52,7 +52,7 @@ Tread, spokes, and rim are integrated into a **single CAD model**, eliminating a
 | Spoke Taper | — | 4 mm (hub) → 2 mm (mid-radius) | Filleted junction reduces stress concentrations |
 | Dual-Material Boundary | Single material | 130 mm diameter (TPU core / PETG shell) | Zone-based material properties in one print |
 
-![Original vs modified](Original vs modified.png)
+![Original vs modified](Original_vs_modified.png)
 
 ![Spokes overhang](rover-1.jpg)
 
