@@ -1,7 +1,7 @@
 # Additive Manufacturing of Off-Road Tire for Autonomous Rover
 
 **Computer Integrated Manufacturing (CIM) Project | TU Clausthal | SS 2025**
-**Team (Group 32):** Nikhil Vinayagamurthy (603095), Raghav Dixit (603151)
+**Team:** Nikhil Vinayagamurthy, Raghav Dixit
 **Supervisor:** Prof. Dr. David Inkermann
 
 ---
@@ -52,9 +52,12 @@ Tread, spokes, and rim are integrated into a **single CAD model**, eliminating a
 | Spoke Taper | — | 4 mm (hub) → 2 mm (mid-radius) | Filleted junction reduces stress concentrations |
 | Dual-Material Boundary | Single material | 130 mm diameter (TPU core / PETG shell) | Zone-based material properties in one print |
 
+## Original vs modified
+
 ![Original vs modified](Original_vs_modified.png)
 
-![Spokes overhang]()
+## Spokes overhang
+![Spokes overhang](Spokes_overhang.png)
 
 ---
 
@@ -67,6 +70,7 @@ Tread, spokes, and rim are integrated into a **single CAD model**, eliminating a
 
 The material transition is handled by **tool-change commands at the 130 mm Z-height boundary**, with a wipe tower included in the slicer setup to prevent cross-contamination between filaments.
 
+## Prusa slicer plater
 ![Prusa slicer plater](Prusa_slicer_plater.png)
 
 ---
@@ -93,6 +97,8 @@ The material transition is handled by **tool-change commands at the 130 mm Z-hei
 | Wall Count | 3 | 4 |
 | Supports | Build plate only | Build plate only |
 | Brim | None | None |
+
+## Print process
 
 ![Print process](print_process.png)
 
