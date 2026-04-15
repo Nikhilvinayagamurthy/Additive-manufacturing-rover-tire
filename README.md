@@ -123,7 +123,7 @@ The redesigned tire was successfully printed on the Original Prusa XL as a dual-
 > Part consolidation confirmed — single print job, no assembly required
 
 
-**Full technical report:** [`CIM_ADDITIVE MANUFACTURING_GROUP 32.pdf`](CIM_ADDITIVE%20MANUFACTURING_GROUP%2032.pdf)
+**Full technical report:** [`CIM_ADDITIVE MANUFACTURING_GROUP 32.pdf`](CIM_ADDITIVE%20MANUFACTURING_REPORT.pdf)
 
 ---
 
