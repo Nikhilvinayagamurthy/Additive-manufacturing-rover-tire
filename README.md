@@ -52,6 +52,10 @@ Tread, spokes, and rim are integrated into a **single CAD model**, eliminating a
 | Spoke Taper | — | 4 mm (hub) → 2 mm (mid-radius) | Filleted junction reduces stress concentrations |
 | Dual-Material Boundary | Single material | 130 mm diameter (TPU core / PETG shell) | Zone-based material properties in one print |
 
+![Original vs modified](rover-1.jpg)
+
+![Spokes overhang](rover-1.jpg)
+
 ---
 
 ## Dual-Material Zoning
@@ -62,6 +66,8 @@ Tread, spokes, and rim are integrated into a **single CAD model**, eliminating a
 | Outer shell + tread | PETG | 130 – 150 mm | Rigid, wear-resistant, high-traction |
 
 The material transition is handled by **tool-change commands at the 130 mm Z-height boundary**, with a wipe tower included in the slicer setup to prevent cross-contamination between filaments.
+
+![Prusa slicer plater](rover-1.jpg)
 
 ---
 
@@ -88,6 +94,8 @@ The material transition is handled by **tool-change commands at the 130 mm Z-hei
 | Supports | Build plate only | Build plate only |
 | Brim | None | None |
 
+![Print process](rover-1.jpg)
+
 **Total Print Time (Normal mode):** 1 day 2 hours 34 minutes
 **Total Print Time (Stealth mode):** 1 day 3 hours 8 minutes
 **Total Tool Changes:** 248
@@ -98,11 +106,16 @@ The material transition is handled by **tool-change commands at the 130 mm Z-hei
 
 The redesigned tire was successfully printed on the Original Prusa XL as a dual-material FDM part. The physical prototype confirms:
 
-✅ Dual-material boundary integrity — clean PETG/TPU transition at 130 mm diameter
-✅ 20-spoke radial structure printed without failures
-✅ Deeper lug profile (8.6 mm) fully resolved with correct overhang angles
-✅ 60 mm tread width achieved across the full contact patch
-✅ Part consolidation confirmed — single print job, no assembly required
+> Dual-material boundary integrity — clean PETG/TPU transition at 130 mm diameter
+
+> 20-spoke radial structure printed without failures
+
+> Deeper lug profile (8.6 mm) fully resolved with correct overhang angles
+
+> 60 mm tread width achieved across the full contact patch
+
+> Part consolidation confirmed — single print job, no assembly required
+
 
 **Full technical report:** [`CIM_ADDITIVE MANUFACTURING_GROUP 32.pdf`](CIM_ADDITIVE%20MANUFACTURING_GROUP%2032.pdf)
 
